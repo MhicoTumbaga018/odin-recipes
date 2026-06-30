@@ -1,0 +1,31 @@
+*{
+    font-family: 'Times New Roman', Arial, serif;
+    width: 500px;
+    margin: 15px  auto;
+    box-sizing: border-box;
+}
+
+
+
+
+.title{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(229, 233, 233);
+    padding: 10px 25px;
+    
+}
+
+.recipe-link-content{
+    background-color: blanchedalmond;
+    padding: 10px;
+    
+    
+}
+
+.list a{
+    color: black;
+    text-decoration: none;
+    margin: 0  auto;
+    padding-left: 25px;
+}
