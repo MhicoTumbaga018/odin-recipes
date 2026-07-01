@@ -1,13 +1,16 @@
+/* Apply border-box sizing to all elements */
 * {
     box-sizing: border-box;
 }
 
+/* Remove default top margin from headings */
 h1,
 h2,
 h3 {
     margin-top: 0;
 }
 
+/* Improve spacing for lists */
 ul,
 ol {
     padding-left: 1.5rem;
@@ -18,6 +21,7 @@ body{
   font-family:  'Times New Roman',Times, serif;
 }
 
+/* Main page container */
 .container{
   max-width: 800px;
   width: 100%;
@@ -26,19 +30,19 @@ body{
   padding: 30px;
 }
 
-
+/* Responsive recipe image */
 .recipe-image{
     width: 100%;
-    max-width: 600px;
-    height: 400px;
-    display: block;
-    margin: 1rem auto;
-    border-radius: 12px;
+   
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+
 }
 
+/* Main recipe card */
 .recipe{
     width: 100%;
-    max-width: 600px;
+    
 
     margin: 16px auto;
     padding: 20px;
@@ -47,29 +51,39 @@ body{
     border-radius: 12px;
 }
 
+/* Utility class for limiting content width */
+.content-width{
+    max-width: 600px;
+    margin-inline: auto;
+}   
 
 
+/* Improve paragraph readability */
 .recipe-description{
     line-height: 1.6;
 }
 
+/* Shared styling for recipe sections */
 .recipe-card{
     margin: 16px auto;
     padding: 20px;
     border-radius: 12px;
-    max-width: 600px;
+    
 
 }
 
+/* Ingredients card theme */
 .recipe-ingredients{
     background-color: rgb(219, 138, 138);
 }
 
+/* Cooking steps card theme */
 .recipe-steps{
     background-color: rgb(227, 229, 246);
   
 }
 
+/* Center the navigation link */
 .home-link{
     display: block;
     text-align: center;
